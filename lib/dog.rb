@@ -15,7 +15,10 @@ class Dog
 
   def self.print_all
     @@all {|dog| puts @name}
-    end
+  end
+
+  def self.clear_all
+    @@all.clear
   end
 
 end
